@@ -1,4 +1,3 @@
-# db/migrate/20250208172148_create_customers.rb
 class CreateCustomers < ActiveRecord::Migration[6.1]
   def change
     create_table :customers do |t|

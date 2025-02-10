@@ -1,4 +1,3 @@
-# app/modules/customer/entity/customer_repo.rb
 module Customer
   module Entity
     class CustomerRepo

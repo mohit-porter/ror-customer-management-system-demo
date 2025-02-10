@@ -1,4 +1,3 @@
-# app/services/customer/customer_login_service.rb
 module Services
   module Customer
     class CustomerLoginService
