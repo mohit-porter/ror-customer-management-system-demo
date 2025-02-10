@@ -1,4 +1,3 @@
-# app/controllers/api/v1/customer_sessions_controller.rb
 module Api
   module V1
     class CustomerSessionsController < ApplicationController

@@ -1,4 +1,3 @@
-# app/services/customer/customer_signup_service.rb
 module Services
   module Customer
     class CustomerSignupService

@@ -1,4 +1,3 @@
-# app/modules/customer/entity/customer_record.rb
 module Customer
   module Entity
     class CustomerRecord < ApplicationRecord

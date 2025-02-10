@@ -1,4 +1,3 @@
-# app/modules/customer/use_cases/customer_logout_usecase.rb
 module Customer
   module UseCases
     class CustomerLogoutUsecase

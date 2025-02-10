@@ -1,4 +1,3 @@
-# app/services/customer/customer_logout_service.rb
 module Services
   module Customer
     class CustomerLogoutService
