@@ -1,7 +1,7 @@
 module Api
   module V1
     class CustomerSessionsController < ApplicationController
-      def create
+      def login
         service = ::Services::Customer::CustomerLoginService.new
         result = service.login(session_params)
 
@@ -12,7 +12,7 @@ module Api
         end
       end
 
-      def destroy
+      def logout
         service = ::Services::Customer::CustomerLogoutService.new
         result = service.logout(session_params[:email])
 
